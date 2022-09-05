@@ -46,6 +46,7 @@
                     For instance, if the handleClick event was called like onClick={handleClick()} then it would fire instantly, so instead use onClick={handleClick}*/}
                     <button onClick={handleClick}>On Click Event</button>
                     <button onClick={(e)=>{console.log("I have been clicked")}}>Inline Click Event</button>
+                    <button onClick={()=>{console.log("Another button was clicked")}}>Another Inline Click Element</button>
                 </div>
             )
         }
